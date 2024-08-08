@@ -1,0 +1,117 @@
+.post-container {
+    width: 1030px;
+    height: 737px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 16px 0px #0000001A;
+
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-name {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  .description {
+    padding: 10px;
+    font-size: 1em;
+    color: #000000;
+    text-align: start;
+  }
+  
+  .post-image {
+    Width:900px;
+    Height:500px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+  }
+
+  .btn1-outline{
+    width: 430px;
+    height: 45px;
+    border-radius: 20px;
+    border: 2px solid #e4ad9e;
+    color: #e4ad9e;
+
+  }
+
+  .btn1-inline{
+    width: 430px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: red;
+    border: none;
+    color: #000000;
+
+  }
+
+  .btn2{
+    width: 430px;
+    height: 45px;
+    color: white;
+    border: none;
+    background-color: #e4ad9e ;
+    border-radius: 20px;
+  }
+
+  .custom-modal {
+    max-width: 1100px;
+    max-height: 550px;
+    width: 90%;
+    height: 90%;
+  }
+
+  .post-containermodal{
+    height: 400px;
+    width: 700px;
+  }
+
+  .comments-section {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+  }
+  
+  .comments-list {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .comments-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: auto;
+  }
+  
+  
+  
+  
+
+ 
+ 

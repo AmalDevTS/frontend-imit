@@ -1,0 +1,141 @@
+
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.App-logo {
+    width: 67px;
+    height: 96px;
+    top: 26px;
+    left: 90px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    padding: 5px;
+    margin-right: 10px;
+    width: 207px;
+    height: 40px;
+    border-radius: 45px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #e4ad9e;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    width: 207px;
+    height: 52px;
+    top: 48px;
+    left: 1017px;
+    color: white;
+    margin-right: 10px;
+    font-weight: 500;
+}
+
+.second-btn {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #e4ad9e;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    width: 180px;
+    height: 52px;
+    top: 48px;
+    left: 1017px;
+    color: white;
+    font-weight: 500;
+}
+
+.circle-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    left: 10px;
+}
+
+.btn-text {
+    flex-grow: 1;
+    text-align: center;
+    padding-left: -10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.centered-rectangle {
+    width: 1030px;
+    height: 337px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 16px 0px #0000001A;
+
+}
+
+.upload-button {
+    padding: 10px 20px;
+    background-color: #c48c5c;
+    border: none;
+    border-radius: 45px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    width: 342px;
+    height: 54px;
+}
+
+.right-image {
+    width: 241px;
+    height: 364px;
+    margin-right: -130px;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.description-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.file-upload {
+    margin-top: 8px;
+}
+
+
+
